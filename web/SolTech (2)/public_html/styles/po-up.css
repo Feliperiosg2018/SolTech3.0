@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/09/2019, 02:40:40 PM
+    Author     : felipe
+*/
+
+body {
+    margin: 0;
+}
+
+.modal{
+    
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0;
+    
+    width: 100%;
+    height: 100vh;
+    background: transparent 
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    display: flex;
+    animation: modal 20s 2s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.contenido{
+    margin: auto;
+    width: 40%;
+    height: 50%;
+    background: #0982d7;
+    border-radius: 10px;
+}
+
+
+@keyframes modal {
+    100% {
+        visibility: visible;
+        opacity: 1;
+        
+    }
+}
